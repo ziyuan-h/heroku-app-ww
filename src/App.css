@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body,html{
+  font-family: Papyrus; font-size: 25px; font-style: normal;
+  color: #40E0D0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  overflow: hidden;
+ background-image: url("https://mediacloud.kiplinger.com/image/private/s--Th3nJzII--/f_auto,t_primary-image-desktop@1/v1621366718/Investing/stock-market-today-051821.jpg");
+ background-color: #cccccc;
+  background-size: cover;
+}
+
+input:invalid+span:after {
+  content: '✖';
+  padding-left: 5px;
+}
+
+input:valid+span:after {
+  content: '✓';
+  padding-left: 5px;
+}
+
+.page-break {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.parent {
+    width:90%;
+    height:90%;
+}
+
+.child {
+    width:100%;
+    height: auto;
+    padding-bottom: 25%;
+    background: grey;
+}
+
+/*h1 { font-family: Papyrus; font-size: 35px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 38.5px; } h3 { font-family: Papyrus, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Papyrus, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Papyrus, fantasy; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Papyrus, fantasy; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }*/
+ 
+#col-1 {
+  position: relative;
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+#col-2 {
+  position: relative;
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
